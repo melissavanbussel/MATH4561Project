@@ -1,0 +1,32 @@
+---
+title: | 
+  | \vspace{3in} \LARGE{MATH561H Final Project}
+  | \vspace{0.5cm} \Large{Do students avoid edge options?}
+author: "Melissa Van Bussel"
+date: "Winter 2019"
+output:
+  pdf_document:
+    highlight: zenburn
+    latex_engine: lualatex
+    fig_caption: true
+  html_document: default
+header-includes:
+  - \usepackage{setspace}
+  - \usepackage{amsmath}
+---
+\fontsize{14}{22}
+\selectfont
+\setstretch{1.2}
+\centering
+\raggedright
+\newpage
+\tableofcontents
+\newpage
+
+# Introduction
+
+```{r}
+3
+```
+
+Hello 

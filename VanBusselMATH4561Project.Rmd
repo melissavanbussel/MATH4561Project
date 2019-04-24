@@ -16,44 +16,42 @@ header-includes:
 ---
 \fontsize{14}{22}
 \selectfont
-\setstretch{1.3}
+\setstretch{1.4}
 \centering
 \raggedright
-\newpage
-\tableofcontents
 \newpage
 
 # Introduction
 
-"When in doubt, choose *C*"
+"When in doubt, choose 'C'."
 
 This well-known phrase provides advice to those who become stumped on a multiple choice question. While this advice may sound silly, a preliminary observational study completed at Trent University in 2018[1] found significant ($\alpha = 0.05$) evidence of middle options such as 'B' or 'C' being disproportionately represented in the answer keys of multiple choice final examinations. 
 
-This report introduces the concept of edge avoidance, explores its role in post-secondary institutions and its presence in everyday life, and presents a $2^3$ factorial design to examine the extent to which university students avoid edges on multiple choice examinations.     
+This report introduces the concept of edge avoidance, explores its role in post-secondary institutions and its presence in everyday life, and presents a Randomized Complete Block Factorial Experimental Design with controls to examine the extent to which university students avoid edges on multiple choice examinations.     
 
 # Background 
 
 ## Definitions 
 
-An *item* refers to an individual multiple choice (MC) question. The *stem* of an item refers to the proposed question, and the *keyed option* is the correct answer to the stem. The remaining options of the item are known as *distractors*. If the options for an item are ordered, then the first and last options are known as *edge options*, while the remaining options are referred to as *middle* options. 
+An *item* refers to an individual multiple choice (MC) question. The *stem* of an item refers to the proposed question, and the *keyed option* is the correct answer to the stem. The remaining options of the item are known as *distractors*. If the options for an item are presented in an ordered list, then the first and last options are known as *edge options*, while the remaining options are referred to as *middle* options. 
 
 *Edge avoidance* refers to the systematic tendency of test makers and test takers to avoid edge options when hiding or guessing the keyed option of an MC item, respectively. 
 
-This psychological phenomenom is seen in many other real-world situations, too, and is sometimes referred to as "edge aversion", "middle bias", or "central tendency bias". Some examples include customers purchasing items which are centrally located on restaurant menus or in store displays, or employers favouring job candidates located centrally in a photograph[2].    
+This psychological phenomenon is also seen in many other real-world situations, and is sometimes referred to as "edge aversion", "middle bias", or "central tendency bias". Some examples include customers purchasing items which are centrally located on restaurant menus or in store displays more frequently, or employers favouring job candidates located centrally in a photograph[2].    
 
 ## Motivation 
 
 In many post-secondary institutions, multiple choice assessments are used to evaluate students' understanding of course material. Often, these assessments constitute a significant portion of students' final grades in a course. Using multiple choice as an evaluation method allows instructors to implement tests which cover a large range of material, and which can be marked rapidly. With ever-increasing class sizes and proliferating popularity of electronic and automated teaching tools, multiple choice examinations are likely to become increasingly commonplace in post-secondary courses.
 
-Due to the wide usage of this evaluation method in universities, it is useful to understand the phenomenom of edge avoidance, in order to provide both instructors and students with strategies to get the most out of multiple choice evaluations. 
+Due to the wide usage of this evaluation method in universities, it is useful to understand the phenomenon of edge avoidance, in order to provide both instructors and students with strategies to get the most out of multiple choice evaluations. 
 
 # Previous Studies
 
-An observational study of 163 Scantron multiple choice examinations taken at Trent University from 2013 to 2018 was conducted in the summer of 2018[1]. In this study, the phenomenom of edge avoidance was not the central focus, and was incorporated into the analysis at the end as a point of interest. This was mainly done to determine whether or not this phenomenom was worth exploring with a properly designed experiment. In this study, each of the 163 tests had statistically significant evidence ($\alpha = 0.05$) of students avoiding edges on at least one question of the examination, meaning that the true proportion of edge distractors chosen by the test takers who had answered the question incorrectly was significantly lower than the expected proportion of edge distractors chosen by the test takers who had answered the question incorrectly. In this sense, the study looked at edge aversion tendencies on isolated questions, rather than on the test as a whole.
+An observational study of 163 Scantron multiple choice examinations taken at Trent University from 2013 to 2018 was conducted in the summer of 2018[1]. In this study, the phenomenon of edge avoidance was not the central focus, and was incorporated into the analysis at the end as a point of interest. This was mainly done to determine whether or not this phenomenon was worth exploring with a properly designed experiment. In this study, each of the 163 tests had statistically significant evidence ($\alpha = 0.05$) of students avoiding edges on at least one question of the examination, meaning that the true proportion of edge distractors chosen by the test takers who had answered the question incorrectly was significantly lower than the expected proportion of edge distractors chosen by the test takers who had answered the question incorrectly. In this sense, the study looked at edge aversion tendencies on isolated questions, rather than on the test as a whole.
 
 An experiment conducted in 2003 at the Hebrew University of Jerusalem investigated edge avoidance tendencies of both test takers and test makers of isolated multiple choice items. In this study, edges were avoided at alarming ratios of up to 3 or 4 to 1.[3]
 
-The experiment proposed in the following section aims to investigate edge aversion tendencies of test taking individuals, and to ascertain which factors play a role in determining the degree to which an individual university student will avoid edges on an examination. This differs from previous work in the literature, which explored the phenomenom only for isolated questions. Results from the aforementioned previous studies suggest that there may be significant factors which predict edge aversion tendencies.
+The experiment proposed in the following section aims to investigate edge aversion tendencies of test taking individuals, and to ascertain which factors play a role in determining the degree to which an individual university student will avoid edges on an examination. This differs from previous work in the literature, which explored the phenomenon only for isolated questions. Results from the aforementioned previous studies suggest that there may be significant factors which predict edge aversion tendencies.
 
 # The Experiment 
 
@@ -63,7 +61,7 @@ When a student is faced with answering a multiple choice question on a universit
 
 If it is known with certainty that a test taker is guessing when answering each item of a multiple choice examination, then it is quite straightforward to determine whether or not the student avoided edges on the exam by performing a simple hypothesis test. 
 
-Assume that a student guessed the correct answer to each item on a multiple choice examination with $n$ items in total. Let $\hat{p}$ be the proportion of items for which the student chose an edge option. Let $p$ be the expected proportion of items for which the student should have chosen edge options, given that they did not avoid edges. For example, if a student completed an $n=100$ multiple choice examination wherein each question had 3 distractors in addition to a keyed option, then it would be expected under the null hypothesis that the student chose edge options 50% of the time. Assume that the student chose edge options 36% of the time, then $p = 0.50$ while $\hat{p} = 0.36$. In this case, the following hypothesis test could be conducted:
+Assume that a student guessed the correct answer to each item on a multiple choice examination with $n$ items in total. Let $\hat{p}$ be the proportion of items for which the student chose an edge option. Let $p$ be the expected proportion of items for which the student should have chosen edge options, given that they did not avoid edges. For example, if a student completed an $n=100$ multiple choice examination wherein each question had 3 distractors in addition to a keyed option, then it would be expected under the null hypothesis that the student chose edge options 50% of the time. Assume that the student actually chose edge options 36% of the time, then $p = 0.50$ while $\hat{p} = 0.36$. In this case, the following hypothesis test could be conducted:
 
 $$
 H_0: p = 0.50; \qquad H_A: p < 0.50
@@ -72,12 +70,12 @@ $$
 where the test statistic is $t_{n-1}$-distributed: 
 
 $$
-T = \frac{\hat{p}-p}{\sqrt{\frac{p(1-p)}{n}}} = \frac{0.36 - 0.50}{\sqrt{\frac{0.36(0.64)}{100}}} = -2.91667 < -T_{0.05} 
+T = \frac{\hat{p}-p}{\sqrt{\frac{p(1-p)}{n}}} = \frac{0.36 - 0.50}{\sqrt{\frac{0.36(0.64)}{100}}} = -2.91667 < -t_{n-1, \; 0.05} 
 $$
 
-Since $T < -T_{0.05}$, there is significant evidence at $\alpha = 0.05$ significance level that the student avoided edges on the examination. 
+Since $T < -t_{n-1, \;0.05}$, there is significant evidence at $\alpha = 0.05$ significance level that the student avoided edges on the examination. 
 
-For the proposed experiment, the response variable is the $t_{n-1}$-distributed test statistic from the above hypothesis test.  
+For the proposed experiment, the response variable is the number of times that the student chose each option (such as "A", "B", and so on). From this, $t_{n-1}$-distributed test statistics can be computed for the above hypothesis test.  
 
 ## Experimental Controls
 
@@ -85,13 +83,13 @@ For the proposed experiment, the response variable is the $t_{n-1}$-distributed 
 
 On a post-secondary examination, students have large incentive for answering as many questions correctly as they are able to. Answering questions on an examination incorrectly will result in lower grades, as well as a number of other potential downfalls. Performing poorly on a university examination could result in lowered grade point average (GPA), loss of scholarships, academic probation, denial of entry to future courses, rejection of applications to other post-secondary institutions, and so on. Thus, in a real examination, students are always motivated to perform their best. 
 
-For this reason, it is important to ensure that there is adequate incentive provided to students participating in the proposed study, so that they answer questions as they would on a real examination. This incentive would depend largely on budgetary constraints, but but offering monetary compensation proportional to the student's performance on the examination given during the study is a proposed way to simulate the incentive that a student might feel during a real post-secondary examination. For research ethics purposes and for experimental control, it is recommended that all student participants receive the same amount of compensation for their time, regardless of their performance on the examination during the study; however, participants should not be informed of this detail until after the completion of the study. 
+For this reason, it is important to ensure that there is adequate incentive provided to students participating in the proposed study, so that they answer questions as they would on a real examination. This incentive would depend largely on budgetary constraints, but offering monetary compensation proportional to the student's performance on the examination given during the study is a proposed way to simulate the incentive that a student might feel during a real post-secondary examination. For research ethics purposes and for experimental control, it is recommended that all student participants receive the same amount of compensation for their time, regardless of their performance on the examination during the study; however, participants should not be informed of this detail until after the completion of the study. 
 
 If this step is omitted, it is likely that student participants will select their answers without thinking, and systematic tendencies of interest will not be observable. If the participant knows ahead of time that they will receive the same financial compensation regardless of their performance, they will not be motivated to take the examination seriously. 
 
 ### Guessing 
 
-As discussed previously, it is not possible to explore the phenomenom of edge avoidance in situations where the student is certain of the keyed option. It is only when the student is guessing and is actively attempting to find the correct answer that this tendency will be observable. For this reason, it is necessary to ensure that students are not only incentivized to answer each question correctly, but that they are also forced to guess the correct answer. 
+As discussed previously, it is not possible to explore the phenomenon of edge avoidance in situations where the student is certain of the keyed option. It is only when the student is guessing and is actively attempting to find the correct answer that this tendency will be observable. For this reason, it is necessary to ensure that students are not only incentivized to answer each question correctly, but that they are also forced to guess the correct answer. 
 
 One way to ensure that participants guess all answers on the examination is to present them with a test which has no correct answers. For example, the following question could be presented: 
 
@@ -125,7 +123,7 @@ For the items which have correct answers, it is advised to use a varying range o
 
 ## Number of Options 
 
-For the proposed experiment, each question should have four options. This is because it is quite standard on post-secondary examinations to have multiple choice questions which have approximately four options per item. Using four options also ensures that many questions may be asked of the participants. If more distractors are to be used for each item, participants will need to spend a significant amount of time reading and processing options which do not add any additional value to the study. It has also been argued that questions with a larger number of distractors can actually serve to make the question less efficient at discriminating strong students from weak students. 
+For the proposed experiment, each question should have four options. This is because it is quite standard on post-secondary examinations to have multiple choice questions which have approximately four options per item. Using four options also ensures that many questions may be asked of the participants. If more distractors are to be used for each item, participants will need to spend a significant amount of time reading and processing options which do not add any additional value to the study. It has also been argued that questions with a larger number of distractors can actually serve to make the questions less efficient at discriminating strong students from weak students, and these sorts of questions are not recommended for real post-secondary examinations. 
 
 By ensuring that each question on the study examination has the same number of options, the hypothesis test discussed previously can be easily conducted for each participant. This is because the proportion of edge options and middle options will be the same for each question, so the expected proportion of selected edge options for guessed answers will always be 0.50. 
 
@@ -135,7 +133,7 @@ For the proposed experiment, each question should be strictly multiple choice wi
 
 ## Presentation of Items
 
-In order to observe systematic edge aversion tendencies, it is important to present all options one after another, in order to reduce potential variation. For example, presenting four options in a 1 x 4 presentation visibly creates options "A" and "D" as edge options with "B" and "C" as middle options, while presenting four options in a 2 x 2 presentation does not create obvious visual edges, and may even serve to create bias. Since English-speakers read from left to right, it is possible that options presented on the left may be more favourable than options presented on the right, or vice versa. To avoid this, options must be presented in a 1 x 4 presentation. For the same reason, all questions should be presented one after another, and there should only be one column of questions on each page of the examination used in the experiment.  
+In order to observe systematic edge aversion tendencies, it is important to present all options one after another, in order to reduce potential variation. For example, presenting four options in a 1 x 4 presentation visibly creates options "A" and "D" as edge options with "B" and "C" as middle options, while presenting four options in a 2 x 2 presentation does not create obvious visual edges, and may even serve to create bias. Furthermore, since English-speakers read from left to right, it is possible that options presented on the left may be more favourable than options presented on the right, or vice versa. For this reason, all questions should be presented one after another, and there should only be one column of questions on each page of the examination used in the experiment.  
 
 ## Number of Questions 
 
@@ -147,11 +145,9 @@ This number is also recommended for budgetary reasons. An examination any longer
 
 ## Blocks and Experimental Units 
 
-As the response variable of interest is psychometric in nature, it is necessary to block on participant. This is because there will be large variation between subjects, and this should be incorporated into the model in order to reduce the experimental error.
+As the response variable of interest is psychometric in nature, it is necessary to block on participant. This is because there will be large variation between subjects, and this should be incorporated into the model in order to reduce the experimental error. The experimental unit of this design is the individual participant and their mental and physical state when completing the examination. As each participant will only be exposed to one treatment combination, this is a "between subjects" design.
 
 It is important to note that while there may be other blocking variables of interest, these will be extremely difficult to incorporate into the model directly. For example, it would be difficult to obain Research Ethics Board approval for any kind of experiment which appears to "discriminate" based on factors which may be of interest, such as gender, GPA, or major. This sort of information is best left for post-hoc analysis, and is included in the "Auxiliary Information" section of this report. 
-
-The experimental unit of this design is the ___________________________ .
 
 ## Factors
 
@@ -165,7 +161,7 @@ For the first level of the test version factor, the ordering of the options for 
 
 This ordering will be adopted because many test takers tend to make assumptions about the distribution of correct answers, and will often count the frequency of their answers when determining which option to select on questions for which they are guessing the keyed option. This ordering is also similar to real-world post-secondary examinations, where instructors will often put effort into ensuring there is an approximately even distribution of correct answers.
 
-Furthermore, the order of the questions themselves will be completely randomized, subject to the following constraint: the examination will be split up into ten chunks of 8 questions each, wherein each chunk will consist of four questions which have correct answers (one of "A", "B", "C", and "D") and four questions which do not. 
+Furthermore, the order of the questions themselves will be completely randomized, subject to the following constraint: the examination will be split up into ten chunks of eight questions each, wherein each chunk will consist of four questions which have correct answers (one each of "A", "B", "C", and "D", in a random order) and four questions which do not. 
 
 This setup is suggested for the purposes of controlling variation. It is possible that a participant may become frustrated with the examination if they answer many questions in a row which do not have correct answers. This ordering of questions prevents this from happening, and ensures that a participant will never have to answer more than eight questions in a row which do not have correct answers.
 
@@ -183,7 +179,7 @@ It is hypothesized that the information given to students at the start of an exa
 
 For the first level of this factor, study participants will be told that the ordering of all questions and the arrangement of all options for each item has been completely randomized. Thus, they are not to expect any kind of ordering or structure, and any ordering or structure is complete coincidence. It is important to note that participants which are assigned to this factor will be told this information regardless of whether or not it is true -- that is, they will be told that the examination has been completely randomized, regardless of whether they have test version 1 or test version 2.
 
-It is hypothesized that telling this information to students at the start of the examination (regardless of whether or not it is true) will minimize middle bias, and will therefore decrease the participant's edge avoidance. If this hypothesis is true, it would allow scientists to provide valuable recommendations to the educational community.
+It is hypothesized that telling this information to students at the start of the examination (regardless of whether or not it is true) will minimize middle bias, and will therefore decrease the participant's edge avoidance. If this hypothesis is true, it would allow scientists to provide valuable recommendations to the educational community. For example, it could be advised that all instructors begin every multiple choice examination by informing their students that the ordering has been completely randomized, even if this is not the case.
 
 #### Second level: No prior knowledge 
 
@@ -209,7 +205,7 @@ For the second level of this factor, participants will not be given a time limit
 
 ## The model
 
-The proposed experiment uses a completely randomized $2^3$ factorial design. Thus, the experiment uses an RCBF, or Randomized Complete Block Factorial.
+The proposed experiment uses a completely randomized $2^3$ factorial design with blocking. Thus, the experiment uses an RCBF, or Randomized Complete Block Factorial.
 
 The general model is: 
 
@@ -258,10 +254,10 @@ The first assumption of the model is that the experimental errors are normally d
 set.seed(1)
 par(mfrow = c(1, 2))
 dat1 <- rnorm(100) 
-qqnorm(dat1, main = "Assumption Met")
+qqnorm(dat1, main = "Normally-Distributed Errors Assumption Met")
 qqline(dat1)
 dat <- dat1 * rnorm(100) * 1.5
-qqnorm(dat, main = "Assumption Not Met")
+qqnorm(dat, main = "Normally-Distributed Errors Assumption Not Met")
 qqline(dat)
 ```
 
@@ -271,7 +267,7 @@ This assumption can also be verified by performing a Shapiro-Wilk test by using 
 
 The second assumption of the model is that the experimental errors are independent. This indicates that there was proper randomization when assigning treatments to the experimental units. 
 
-To verify this assumption, a simple scatterplot of the residuals versus the experimental unit number can be created. Any trends in the scatterplot indicate that the randomization may not have adequately balanced units across the treatment levels of the factors. This could include increasing trends, decreasind trends, or periodic trends.
+To verify this assumption, a simple scatterplot of the residuals versus the experimental unit number can be created. Any trends in the scatterplot indicate that the randomization may not have adequately balanced units across the treatment levels of the factors. This could include increasing trends, decreasing trends, or periodic trends.
 
 ```{r, echo = FALSE, fig.height = 3, fig.width = 12}
 set.seed(3)
@@ -334,13 +330,13 @@ While it is unknown how many replicates of the design there would be, the follow
 ```{r, echo = TRUE}
 version <- c("structured", "random")
 prior <- c("given", "none")
-time <- c("90", "unlimited")
+time <- c("90 minutes", "unlimited")
 combo <- expand.grid(version, prior, time)
 replicate <- rep(1:3, each = 8)
 order <- sample(1:24, 24)
-edge <- data.frame("Test Version" = combo$Var1,
-                   "Prior Knowledge Given" = combo$Var2, "Time Given" = combo$Var3, 
-                   "Replicate" = replicate, "Order" = order)
+edge <- data.frame(combo$Var1, combo$Var2, combo$Var3, replicate, order)
+colnames(edge) <- c("Test Version", "Prior Knowledge Given", "Time Given", 
+                    "Replicate", "Order")
 ```
 
 ```{r, echo = FALSE}
@@ -350,19 +346,35 @@ kable(edge, "latex", booktabs = TRUE) %>%
   kable_styling(latex_options = "striped")
 ```
 
-# Sources of Uncontrolled Variation 
+# Additional Sources of Variation
 
-- presumably we would have all people with factor 2 levl 1 and a time limit writing in same room same time to save costs, but where people sit in the room and the fact that theres other people in the room could stress people out and affect things
+In addition to the experimental controls presented previously, there are also a number of other potential sources of variation that should be controlled as much as possible. While it will not be possible to completely eliminate these sources, it is possible to minimize them and their effects. 
+
+In order to ensure that all participants have similar experiences when completing the examination, the examination process should be as similar as possible for each person. This includes administering the examination at the same general time of the day in the same room with the same proctor for each participant, printing each copy of the examination on the same type of paper, providing each student with the same brand of pencil to complete the examination, and so on. 
+
+For financial reasons, it is likely that multiple experimental units would participate in the study at the same time and in the same room. If this is to be the case, it is advised to allow at most one of the replicates for each specific treatment combination to be writing the examination at a time. Otherwise, it is possible to unintentionally introduce a **day** effect without the ability to account for this effect, if testing conditions vary from day to day and these conditions influence the way in which participants complete the examination. 
+
+Furthermore, it is recommended to have those assigned to the second treatment level of factor three (unlimited time given) write the examination in a room separate from anyone assigned to the first treatment level of the third factor (ninety minutes given). If this is not done, students who are given a time limit may feel frustrated at the ninety minute mark if other participants are allowed to continue writing while they are not. On the other hand, students given no time limit may feel an additional and unintentional source of pressure to complete the examination more quickly if they notice other participants leaving at the ninety minute mark. These psychological effects could change the way in which the students complete the test, so the two treatment levels should be separated to prevent this from happening. 
+
+An additional problem that could occur if the study is to take place over the span of multiple days or weeks is that early participants could share information about the experiment with their friends or with other participants. Since the matter of interest is subconscious in nature, the purpose of the experiment is essentially defeated if students are aware of the response variable of interest before beginning the examination. While it is impossible to completely eliminate this potential issue, participants can be asked to sign a confidentiality agreement in addition to a consent waiver. 
+
+If multiple students are to complete the examination in the same room at the same time, there could be a number of unforeseen sources of variation. This is because students vary greatly in their test taking abilities, and some students will perform differently based on the surrounding environment while they are completing the examination. For example, some students experience enhanced focus when they are able to hear background noises during an examination, while other students may experience the exact opposite. For some, writing a test in a room full of other students increases stress and anxiety, while others are not phased by this. For these reasons, it would be ideal to have each student write the examination in a room individually; however, if this is not possible, the same number of students should be present in the examination room for each time the test is administered.
+
+# Uncontrollable Sources of Variation
+
+While the above section presented reasonable and viable methods for minimizing experimental variance, there will also be some sources of variation which simply cannot be controlled. For instance, students who sleep for a sufficient number of hours on the night before the examination will likely perform differently than those participants who did not. Similarly, those who come to the examination on a full stomach may experience increased focus, as may those who are on certain medications. Participants who have already had their classes for the day may arrive feeling mentally exhausted, while those headed to class after the examination may have other things on their mind. If a participant is experiencing issues in their personal life, it may translate to the way in which they complete the examination. Even seemingly small factors such as the weather on the day of the test can affect a student's mood, and thus their test taking abilities. 
+
+It is not possible to completely control or eliminate these variations that will exist from participant to participant. Rather, these factors should be taken into consideration, and students should be asked a series of questions regarding their mental and physical state on the day of the examination. Detailed notes should be taken, as these notes may provide valuable insight on the shortcomings of the experiment if results are not as expected.
 
 # Summary 
 
-With regards to multiple choice questions, edge avoidance refers to the psychological phenomenom of test takers avoiding edge options (such as "A" or "D") in favour of middle options (such as "B" or "C"). This phenomenom can have a significant impact on post-secondary students' grades, finances, and even mental health. Understanding which factors affect edge avoidance will allow researchers to provide valuable recommendations to professors and students alike about how to administer and how to take multiple choice examinations. 
+With regards to multiple choice questions, edge avoidance refers to the psychological phenomenon of test takers avoiding edge options (such as "A" or "D") in favour of middle options (such as "B" or "C"). This phenomenon can have a significant impact on post-secondary students' grades, finances, and even mental health. Understanding which factors affect edge avoidance will allow researchers to provide valuable recommendations to professors and students alike about how to administer and how to take multiple choice examinations. 
 
-In order to study edge avoidance, a Randomized Complete Block Factorial (RCBF) design was developed, consisting of 3 factors with 2 levels each. The first factor was the test version (structured or random), the second factor was prior information given to students (prior information given or no prior information given), and time given (ninety minutes or unlimited time). 
+In order to study edge avoidance, a Randomized Complete Block Factorial (RCBF) design was developed, consisting of 3 factors with 2 levels each. The first factor was the test version (structured or random), the second factor was prior information given to students (prior information given or no prior information given), and the third factor was time given to complete the examination (ninety minutes or unlimited time). 
 
 # References
 
-1. Fitze, K., & Van Bussel, M. (2018) Making your r' PRIME: Exploring the Quality of Multiple Choice Testing at Trent. Physics Department Summer Seminar Series, Trent University. 
+1. Fitze, K., & Van Bussel, M. (2018) Making your r' PRIME: Exploring the Quality of Multiple Choice Testing at Trent. Trent University Physics Department Summer Seminar Series, Trent University. 
 
 2. Jarrett, C. (2012). People Prefer the Middle Option. The British Psychological Society Research Digest, 30 April 2012.
 
